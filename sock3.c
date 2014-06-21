@@ -25,5 +25,5 @@ int main() {
         rlen = read(fd2, buf, sizeof(buf)); // 读取信息
         write(1, buf, rlen);  // 输出信息
    }
-return 0;
+    return 0;
 }
